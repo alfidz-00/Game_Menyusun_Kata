@@ -18988,6 +18988,8 @@ cr.getObjectRefTable = function () { return [
 	cr.behaviors.DragnDrop,
 	cr.plugins_.Touch.prototype.cnds.OnTouchObject,
 	cr.system_object.prototype.acts.NextPrevLayout,
+	cr.plugins_.Sprite.prototype.acts.SetPos,
+	cr.plugins_.Sprite.prototype.acts.SetVisible,
 	cr.system_object.prototype.cnds.OnLayoutStart,
 	cr.system_object.prototype.acts.SetVar,
 	cr.plugins_.Sprite.prototype.exps.Count,
@@ -19009,8 +19011,8 @@ cr.getObjectRefTable = function () { return [
 	cr.plugins_.Sprite.prototype.acts.Spawn,
 	cr.behaviors.DragnDrop.prototype.acts.SetEnabled,
 	cr.system_object.prototype.cnds.Else,
-	cr.plugins_.Sprite.prototype.acts.SetPos,
 	cr.system_object.prototype.cnds.CompareVar,
-	cr.system_object.prototype.cnds.TriggerOnce
+	cr.system_object.prototype.cnds.TriggerOnce,
+	cr.system_object.prototype.acts.GoToLayoutByName
 ];};
 
